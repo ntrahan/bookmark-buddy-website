@@ -1,0 +1,15 @@
+html {
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-size: 19px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#bookmark-buddy-banner {
+	width: 700px;
+	margin-bottom: 25px;
+}
