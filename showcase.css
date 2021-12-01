@@ -1,8 +1,3 @@
-html,
-body {
-	height: 100%;
-}
-
 #showcase-list {
 	list-style-type: none;
 	padding: 0;
@@ -21,17 +16,6 @@ body {
 
 #showcase-list li:not(:last-child) {
 	margin-bottom: 30px;
-}
-
-#main {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	height: 0;
-	flex-grow: 1;
-	margin-top: 2.5rem;
-	padding-left: 15px;
-	padding-right: 15px;
 }
 
 #showcase-images {
@@ -63,10 +47,6 @@ body {
 @media (max-width: 767px) {
 	#main {
 		flex-wrap: wrap;
-	}
-
-	#showcase-list {
-		width: 100%;
 	}
 
 	#showcase-images {
