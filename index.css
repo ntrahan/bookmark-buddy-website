@@ -1,0 +1,19 @@
+#overview {
+	display: flex;
+}
+
+#description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 600px;
+}
+
+#title {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+nav {
+	margin-bottom: 2rem;
+}
