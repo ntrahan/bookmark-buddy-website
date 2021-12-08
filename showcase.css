@@ -42,12 +42,13 @@
 
 #showcase-select {
 	display: none;
-	margin-bottom: 1.5rem;
+	margin-bottom: 2rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 	#main {
 		flex-wrap: wrap;
+		flex-grow: unset;
 	}
 
 	#showcase-images {
