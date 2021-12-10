@@ -58,3 +58,9 @@ nav .container-fluid {
 	padding-left: 15px;
 	padding-right: 15px;
 }
+
+@media (max-width: 992px) {
+	#available-in-chrome-store {
+		left: -13px;
+	}
+}
