@@ -30,6 +30,15 @@
 @media (max-width: 767px) {
 	#main {
 		flex-wrap: wrap;
+		flex-grow: unset;
+	}
+
+	#subtitle {
+		font-size: 18px;
+	}
+
+	#title {
+		font-size: 31px;
 	}
 
 	#description {
