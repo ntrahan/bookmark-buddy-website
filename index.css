@@ -10,21 +10,17 @@
 	margin-right: 40px;
 }
 
-#title {
-	font-size: 37px;
-	font-weight: 500;
+#header {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 2.2rem;
 }
 
 #main-image {
 	width: 100%;
 	height: 100%;
-	max-width: 748px;
+	max-width: 1022px;
 	object-fit: contain;
-}
-
-#subtitle {
-	margin-top: 10px;
-	font-size: 20px;
 }
 
 @media (max-width: 767px) {
@@ -33,15 +29,11 @@
 		flex-grow: unset;
 	}
 
-	#subtitle {
-		font-size: 18px;
-	}
-
-	#title {
-		font-size: 31px;
-	}
-
 	#description {
 		margin-bottom: 30px;
+	}
+
+	#header {
+		font-size: 17px;
 	}
 }

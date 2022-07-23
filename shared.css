@@ -17,12 +17,13 @@ body {
 	padding-right: 25px;
 }
 
-nav {
+nav.navbar {
 	width: 100%;
 	font-size: 17px;
+	padding-bottom: 0;
 }
 
-nav .container-fluid {
+nav.navbar .container-fluid {
 	padding: 0;
 }
 
@@ -54,9 +55,9 @@ nav .container-fluid {
 	justify-content: center;
 	height: 0;
 	flex-grow: 1;
-	margin-top: 2rem;
-	padding-left: 15px;
-	padding-right: 15px;
+	margin-top: 3rem;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 @media (max-width: 992px) {
