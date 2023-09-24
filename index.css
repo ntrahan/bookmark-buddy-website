@@ -11,9 +11,9 @@
 }
 
 #header {
-	font-size: 20px;
+	font-size: 22px;
 	text-align: center;
-	margin-top: 2.2rem;
+	margin-top: 4rem;
 }
 
 #main-image {
@@ -23,10 +23,16 @@
 	object-fit: contain;
 }
 
+.main-image-div {
+	flex-wrap: wrap;
+	flex-grow: unset !important;
+}
+
 @media (max-width: 767px) {
 	#main {
 		flex-wrap: wrap;
 		flex-grow: unset;
+		margin-top: 4rem;
 	}
 
 	#description {
